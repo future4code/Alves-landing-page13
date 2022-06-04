@@ -9,7 +9,7 @@
     display: flex;
     background-color: #e0f2fa ;
     justify-content: center;
-    
+    align-items: center;
     
 }
 #imagemContainer1 img{
@@ -27,9 +27,42 @@
 }
 #textoContainer1 p{
     font-size: 1rem;
+   
 
 }
 #textoContainer1{
     width: 30%;
+    
+    
+}
+
+#textoContainer1 button{
+    border-radius: 10px;
+    border-style: solid;
+    font-weight: 500;
+    background: white;
+    width: 24%;
+    padding: 2% 5% 2% 5%;
+    border: #38627E solid;
+    margin: 6% 0% 1% 2%;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 1.3px;
+    border-width: 2px 2px 2px 2px;
+    box-shadow: 0px 0px 10px 0px #38627E;
+    color: #38627E;
+}
+
+
+    
+
+#textoContainer1 button:hover{
+   
+    background-color: #38627E;
+    color: white;
+    box-shadow: 0px 0px 10px 0px #38627E;
+    
     
 }
