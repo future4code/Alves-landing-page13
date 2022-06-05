@@ -1,59 +1,143 @@
-*{
+* {
     margin: 0;
-    padding: 0; 
-} 
-
-#container-1{
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  .container {
     display: flex;
-    background-color: #3b4f66 ;
-    justify-content: center;    
-}
-
-section{
-    display: flex;
+    background-color: #e0f2fa;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#container-3, #container-5, footer{
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: #3b4f66;
-}
- #container-4, #container-6{
-    display: flex;
-    flex-direction: row;    
-}
-img{
+  }
+  #imagemContainer1 img {
     width: 100%;
-    height: 100%;
-    width: auto;
-    height: auto;
-}
-
-.right-side h1{
-    margin-left: 10%;
-}
-
-.container-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#container-2{
+  }
+  #textoContainer1 h1 {
+    color: #38627e;
+    font-size: 3rem;
+  }
+  #textoContainer1 h2 {
+    color: #3b3b3b;
+    font-size: 2.5rem;
+  }
+  #textoContainer1 p {
+    font-size: 1rem;
+  }
+  #textoContainer1 {
     width: 30%;
+  }
+  #textoContainer1 button {
+    border-radius: 10px;
+    border-style: solid;
+    font-weight: 500;
+    background: white;
+    width: 24%;
+    padding: 2% 5% 2% 5%;
+    border: #3b4f66 solid;
+    margin: 6% 0% 1% 2%;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: 1.3px;
+    border-width: 2px 2px 2px 2px;
+    box-shadow: 0px 0px 10px 0px #3b4f66;
+    color: #3b4f66;
+  }
+  #textoContainer1 button:hover {
+    background-color: #3b4f66;
+    color: white;
+    box-shadow: 0px 0px 10px 0px #3b4f66;
+  }
+  #container3 {
+    background-color: white;
+  }
+  button#botao1 {
+    width: 38%;
+    background-color: #3b4f66;
+    color: white;
+  }
+  button#botao1:hover {
+    background-color: white;
+    color: #3b4f66;
+  }
+  #cabecario {
+    background-color: #3b4f66;
+    padding: 2% 0% 7% 0%;
+  }
+  #cabecario h1 {
+    color: white;
+  }
+  #cabecario p {
+    color: white;
+    font-size: 1.2rem;
+  }
+  button#botaoCabecario1 {
+    width: 38%;
+    background-color: #659f81;
+    color: white;
+  }
+  button#botaoCabecario1:hover {
+    background-color: white;
+    color: #659f81;
+  }
+  button#botaoCabecario2 {
+    width: 38%;
+  }
+  button#botaoCabecario2:hover {
+    background-color: #659f81;
+  }
+  #container2 {
+    background-color: #3b4f66;
+  }
+  #container1 p {
+    font-size: 1.2rem;
+  }
+  #container1 {
+    background-color: white;
+  }
+  #container2 h1 {
+    color: white;
+  }
+  #container2 p {
+    color: white;
+    font-size: 1.2rem;
+  }
+  button#botao2 {
+    width: 38%;
+    background-color: #659f81;
+    color: white;
+  }
+  button#botao2:hover {
+    background-color: white;
+    color: #659f81;
+  }
+  #container3 p {
+    font-size: 1.2rem;
+  }
+  
+  .separarImagemContainer1 img {
+    margin: 0% 0% 0% -20%;
+  }
+  footer {
+    color: white;
+    background-color: #3b4f66;
     display: flex;
-    flex-direction: row;
-}
-.logosRedes{
-    max-width: 50px;
-    max-height: 50px;
-}
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0% 1% 0%;
+  }
+  .redeSocial {
+    width: 5%;
+    padding: 1% 0% 0% 0%;
+  }
+  #canais {
+    text-align: center;
+  }
+  #alinhaFooter {
+    text-align: center;
+  }
+  
